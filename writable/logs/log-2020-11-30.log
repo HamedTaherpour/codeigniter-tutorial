@@ -1,0 +1,9 @@
+CRITICAL - 2020-11-30 11:42:03 --> Invalid file: {0}
+#0 E:\Project\Web\www\blog\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 E:\Project\Web\www\blog\system\Common.php(1087): CodeIgniter\View\View->render('index', Array, true)
+#2 E:\Project\Web\www\blog\app\Controllers\Home.php(7): view('index')
+#3 E:\Project\Web\www\blog\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 E:\Project\Web\www\blog\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\Project\Web\www\blog\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Project\Web\www\blog\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
